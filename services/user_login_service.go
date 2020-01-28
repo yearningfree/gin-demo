@@ -2,8 +2,8 @@
 package services
 
 import (
-	"myownsite/server/model"
-	"myownsite/server/serialzer"
+	"gin-demo/model"
+	"gin-demo/serialzer"
 )
 
 // UserLoginFrom 用户登录数据表单

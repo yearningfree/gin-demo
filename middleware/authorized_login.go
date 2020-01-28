@@ -3,8 +3,8 @@ package middleware
 import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"myownsite/server/model"
-	"myownsite/server/serialzer"
+	"gin-demo/model"
+	"gin-demo/serialzer"
 )
 
 // AuthenticationLogin 登录认证

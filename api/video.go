@@ -1,8 +1,8 @@
 package api
 
 import (
+	"gin-demo/services"
 	"github.com/gin-gonic/gin"
-	"myownsite/server/services"
 )
 
 // VideoCreate 视频投稿

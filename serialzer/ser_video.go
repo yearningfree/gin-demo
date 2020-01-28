@@ -1,6 +1,6 @@
 package serialzer
 
-import "myownsite/server/model"
+import "gin-demo/model"
 
 // Video 视频序列化器
 type Video struct {

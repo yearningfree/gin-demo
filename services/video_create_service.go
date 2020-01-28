@@ -1,8 +1,8 @@
 package services
 
 import (
-	"myownsite/server/model"
-	"myownsite/server/serialzer"
+	"gin-demo/model"
+	"gin-demo/serialzer"
 )
 
 // VideoCreateService 视频投稿数据表单

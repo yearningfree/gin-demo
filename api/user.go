@@ -1,10 +1,10 @@
 package api
 
 import (
+	"gin-demo/serialzer"
+	"gin-demo/services"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"myownsite/server/serialzer"
-	"myownsite/server/services"
 )
 
 // UserRegister 用户注册接口

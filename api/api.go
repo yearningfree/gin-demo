@@ -2,8 +2,8 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"myownsite/server/model"
-	"myownsite/server/serialzer"
+	"gin-demo/model"
+	"gin-demo/serialzer"
 )
 
 //Ping 检查
@@ -26,5 +26,8 @@ func GetUser(c *gin.Context) *model.User {
 
 //ErrorResponse
 func ErrorResponse(err error) serialzer.Response {
-	return serialzer.Response{}
+	return serialzer.Response{
+		Status: 0,
+		Error:  err.Error(),
+	}
 }

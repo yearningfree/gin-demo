@@ -1,8 +1,8 @@
 package services
 
 import (
-	"myownsite/server/model"
-	"myownsite/server/serialzer"
+	"gin-demo/model"
+	"gin-demo/serialzer"
 )
 
 // VideoShow 视频展示

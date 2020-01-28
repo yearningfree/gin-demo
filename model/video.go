@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/jinzhu/gorm"
-	"myownsite/server/cache"
+	"gin-demo/cache"
 	"strconv"
 )
 

@@ -2,8 +2,8 @@
 package services
 
 import (
-	"myownsite/server/model"
-	"myownsite/server/serialzer"
+	"gin-demo/model"
+	"gin-demo/serialzer"
 )
 
 // UserRegisterFrom 用户注册数据表单

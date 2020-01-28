@@ -1,12 +1,14 @@
 package main
 
 import (
-	"myownsite/server/cache"
-	"myownsite/server/model"
-	"myownsite/server/route"
+	"gin-demo/cache"
+	"gin-demo/model"
+	"gin-demo/route"
 )
 
 func main()  {
+	// gin模式
+	//gin.SetMode(gin.ReleaseMode)
 
 	// 连接数据库
 	model.InitDatabase()

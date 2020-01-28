@@ -1,6 +1,6 @@
 package serialzer
 
-import "myownsite/server/model"
+import "gin-demo/model"
 
 // User 用户序列化
 type User struct {

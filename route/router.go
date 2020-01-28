@@ -2,8 +2,8 @@ package route
 
 import (
 	"github.com/gin-gonic/gin"
-	"myownsite/server/api"
-	"myownsite/server/middleware"
+	"gin-demo/api"
+	"gin-demo/middleware"
 )
 
 // 初始化路由
