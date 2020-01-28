@@ -1,6 +1,7 @@
 package model
 
 import (
+	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"time"
@@ -13,15 +14,15 @@ var DB *gorm.DB
 func InitDatabase() {
 	db, err := gorm.Open("mysql",
 		"root:1234@/ownsite?charset=utf8&parseTime=True&loc=Local")
-	//db.logMode(true)
+	db.LogMode(true)
 
 	if err != nil {
 		panic(err)
 	}
 
-	//if gin.Mode() == "release"{
-	//	db.logMode(false)
-	//}
+	if gin.Mode() == "release"{
+		db.LogMode(false)
+	}
 
 	// SetMaxIdleCons 设置连接池中的最大闲置连接数。
 	db.DB().SetMaxIdleConns(30)
