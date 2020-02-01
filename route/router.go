@@ -40,7 +40,7 @@ func InitRoute() *gin.Engine {
 		}
 
 		// 视频操作
-		v1.POST("videoCreate", api.VideoCreate)
+		v1.POST("video", api.VideoCreate)
 		v1.GET("video/:id", api.GetVideoByID)
 		v1.GET("videos", api.VideoShow)
 		v1.PUT("video/:id", api.VideoUpdate)
